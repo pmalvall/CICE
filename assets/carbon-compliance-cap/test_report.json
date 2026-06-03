@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0,
+    "score": 100,
+    "coverage": 77.97
+  },
+  "sections": [
+    {
+      "name": "CAP Tests",
+      "marker": "cap_tests",
+      "total": 11,
+      "passed": 11,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100,
+      "tests": [
+        {
+          "name": "CarbonKPIs should return exactly one KPI row",
+          "outcome": "passed",
+          "duration": 0.009
+        },
+        {
+          "name": "CarbonKPIs should include all required KPI fields",
+          "outcome": "passed",
+          "duration": 0.003
+        },
+        {
+          "name": "acknowledgeAlert should acknowledge an OPEN alert and return success message",
+          "outcome": "passed",
+          "duration": 0.009
+        },
+        {
+          "name": "acknowledgeAlert should reject acknowledgeAlert without alertId",
+          "outcome": "passed",
+          "duration": 0.002
+        },
+        {
+          "name": "approveReport should approve a DRAFT report and return success message",
+          "outcome": "passed",
+          "duration": 0.005
+        },
+        {
+          "name": "approveReport should reject approveReport for already-approved report",
+          "outcome": "passed",
+          "duration": 0.004
+        },
+        {
+          "name": "approveReport should reject approveReport without reportId",
+          "outcome": "passed",
+          "duration": 0.001
+        },
+        {
+          "name": "updateRecommendationStatus should update status from OPEN to IN_PROGRESS",
+          "outcome": "passed",
+          "duration": 0.003
+        },
+        {
+          "name": "updateRecommendationStatus should reject invalid status values",
+          "outcome": "passed",
+          "duration": 0.002
+        },
+        {
+          "name": "AgentIntegrationService should expose EmissionsRecords entity for agent write-back",
+          "outcome": "passed",
+          "duration": 0.001
+        },
+        {
+          "name": "AgentIntegrationService should allow inserting an emissions record via the service",
+          "outcome": "passed",
+          "duration": 0.004
+        }
+      ]
+    }
+  ]
+}

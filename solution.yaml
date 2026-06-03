@@ -1,0 +1,15 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: carbon-compliance-intelligence-0c575
+  version: 1.0.0
+  description: >
+    Carbon Compliance Intelligence Engine (CCIE) — enterprise-grade AI agent embedded within
+    SAP PRA that transforms hydrocarbon production data into audit-grade ESG disclosures.
+    Computes Scope 1/2/3 emissions, detects flaring and methane hotspots in real time,
+    and generates CSRD/IFRS S2/SB253-compliant regulatory filings with full data lineage.
+
+assets:
+  - ref: ./assets/carbon-compliance-agent/asset.yaml
+  - ref: ./assets/carbon-compliance-cap/asset.yaml

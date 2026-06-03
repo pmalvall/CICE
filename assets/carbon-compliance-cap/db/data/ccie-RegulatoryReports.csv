@@ -1,0 +1,4 @@
+ID;jurisdiction_code;format_code;reporting_period_start;reporting_period_end;status_code;file_name;lineage_record_count;taxonomy_applied;methodology_ref
+c1d2e3f4-0001-0001-0001-000000000001;CSRD;JSON;2024-01-01;2024-12-31;DRAFT;CCIE_CSRD_2024_20240131T120000Z.json;12;ESRS XBRL Taxonomy 2024;GHG Protocol Corporate Standard
+c1d2e3f4-0002-0002-0002-000000000002;IFRS_S2;PDF;2024-01-01;2024-12-31;DRAFT;CCIE_IFRS_S2_2024_20240131T120000Z.pdf;10;IFRS Sustainability Disclosure Standards Taxonomy;GHG Protocol Corporate Standard
+c1d2e3f4-0003-0003-0003-000000000003;SB253;JSON;2024-01-01;2024-12-31;PENDING_APPROVAL;CCIE_SB253_2024_20240131T120000Z.json;8;California SB253 Reporting Template v1.0;GHG Protocol Corporate Standard

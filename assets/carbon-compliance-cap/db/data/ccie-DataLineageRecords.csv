@@ -1,0 +1,6 @@
+ID;report_ID;source_type;source_doc_id;volume_value;volume_unit;emission_factor_value;emission_factor_source;calculation_step;disclosure_section_ref
+e1f2a3b4-0001-0001-0001-000000000001;c1d2e3f4-0001-0001-0001-000000000001;PRA_PLANT_VOLUME;PLANT-001-2024Q4;45000.00;BOE;0.0423;EPA-GHG-2024-Table-C1;scope1_combustion = plant_volume_BOE * EF_combustion;CSRD-ESRS-E1-Disclosure-6a
+e1f2a3b4-0002-0002-0002-000000000002;c1d2e3f4-0001-0001-0001-000000000001;PRA_WELL_PRODUCTION;WELL-002-2024Q4;12500.00;BOE;0.0218;EPA-GHG-2024-Table-C2-Fugitive;scope1_fugitive = well_volume_BOE * EF_fugitive_methane;CSRD-ESRS-E1-Disclosure-6b
+e1f2a3b4-0003-0003-0003-000000000003;c1d2e3f4-0002-0002-0002-000000000002;PRA_PLANT_VOLUME;PLANT-001-2024Q4;45000.00;BOE;0.0423;IPIECA-GHG-Manual-2021;scope1_total = combustion + fugitive + flaring;IFRS-S2-para-29a-GHG-emissions
+e1f2a3b4-0004-0004-0004-000000000004;c1d2e3f4-0002-0002-0002-000000000002;UTILITY_BILLING;UTIL-2024Q4-ELEC;68.40;tCO2e;0.00000;Grid-EF-Renewable-100pct;scope2_market_based = renewable_certificate_coverage * 0;IFRS-S2-para-29b-Scope2-market
+e1f2a3b4-0005-0005-0005-000000000005;c1d2e3f4-0003-0003-0003-000000000003;PRA_REVENUE_ACCT;RAVDOC-2024-001;450000.00;USD;0.00145;DEFRA-2024-Scope3-Category11;scope3_use_of_sold_products = revenue * EF_downstream;SB253-Section-3-Scope3-Cat11

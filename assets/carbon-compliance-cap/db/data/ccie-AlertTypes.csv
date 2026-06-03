@@ -1,0 +1,4 @@
+code;name;descr
+FLARING;Flaring Anomaly;Flare gas volume exceeds baseline or regulatory limit
+METHANE_LEAK;Methane Leak;Methane venting or fugitive rate above threshold
+INEFFICIENT_WELL;Inefficient Well;Carbon intensity significantly above field average

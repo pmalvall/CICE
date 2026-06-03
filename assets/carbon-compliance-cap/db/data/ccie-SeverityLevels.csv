@@ -1,0 +1,5 @@
+code;name;descr
+LOW;Low;Minor exceedance — routine maintenance
+MEDIUM;Medium;Moderate exceedance — schedule repair within 2 weeks
+HIGH;High;Significant exceedance — repair within 72 hours
+CRITICAL;Critical;Severe exceedance — immediate action required

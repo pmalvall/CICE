@@ -1,0 +1,42 @@
+{
+  "name": "carbon-compliance-cap",
+  "version": "1.0.0",
+  "dependencies": {
+    "@cap-js/hana": "^2",
+    "@sap/cds": "^9",
+    "@sap/xssec": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/cds-test": "^1.0.1",
+    "@cap-js/sqlite": "^2.4",
+    "@sap/cds-dk": "^9.9.2",
+    "jest": "^30.4.2"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "build": "npm run build --workspace=app/react-ui && cds build --production",
+    "test": "jest --testEnvironment node --forceExit --coverage"
+  },
+  "private": true,
+  "cds": {
+    "[development]": {
+      "requires": {
+        "auth": "dummy"
+      }
+    },
+    "[production]": {
+      "folders": {
+        "app": "app/react-ui/dist"
+      }
+    }
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "<rootDir>/scripts/test-report-reporter.cjs"
+    ]
+  },
+  "workspaces": [
+    "app/react-ui"
+  ]
+}

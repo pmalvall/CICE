@@ -1,0 +1,259 @@
+{
+  "summary": {
+    "total": 43,
+    "passed": 43,
+    "failed": 0,
+    "score": 100.0
+  },
+  "sections": [
+    {
+      "name": "Structure Tests",
+      "marker": "structure",
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100.0,
+      "tests": [
+        {
+          "name": "test_agent_directory_exists",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_app_directory_exists",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "test_requirements_txt_exists",
+          "outcome": "passed",
+          "duration": 0.0002
+        }
+      ]
+    },
+    {
+      "name": "Server Tests",
+      "marker": "server",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100.0,
+      "tests": [
+        {
+          "name": "test_server_starts",
+          "outcome": "passed",
+          "duration": 0.0004
+        },
+        {
+          "name": "test_agent_card_endpoint",
+          "outcome": "passed",
+          "duration": 0.0334
+        }
+      ]
+    },
+    {
+      "name": "Agent Tests",
+      "marker": "agent_tests",
+      "total": 38,
+      "passed": 38,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100.0,
+      "tests": [
+        {
+          "name": "test_prepare_csrd_disclosure_esrs_e1_data_points",
+          "outcome": "passed",
+          "duration": 0.2884
+        },
+        {
+          "name": "test_prepare_ifrs_s2_disclosure_required_fields",
+          "outcome": "passed",
+          "duration": 0.0014
+        },
+        {
+          "name": "test_prepare_sb253_disclosure_revenue_threshold",
+          "outcome": "passed",
+          "duration": 0.0011
+        },
+        {
+          "name": "test_render_regulatory_report_json_format",
+          "outcome": "passed",
+          "duration": 0.0018
+        },
+        {
+          "name": "test_render_regulatory_report_invalid_format",
+          "outcome": "passed",
+          "duration": 0.0008
+        },
+        {
+          "name": "test_render_regulatory_report_xbrl_format",
+          "outcome": "passed",
+          "duration": 0.0008
+        },
+        {
+          "name": "test_get_emission_factors_combustion",
+          "outcome": "passed",
+          "duration": 0.0009
+        },
+        {
+          "name": "test_get_emission_factors_unknown_region_defaults",
+          "outcome": "passed",
+          "duration": 0.0008
+        },
+        {
+          "name": "test_calculate_scope1_combustion_flaring_venting",
+          "outcome": "passed",
+          "duration": 0.0012
+        },
+        {
+          "name": "test_calculate_scope1_zero_flare",
+          "outcome": "passed",
+          "duration": 0.001
+        },
+        {
+          "name": "test_calculate_scope2_grid_factor_multiplication",
+          "outcome": "passed",
+          "duration": 0.0011
+        },
+        {
+          "name": "test_calculate_scope3_oil_and_gas",
+          "outcome": "passed",
+          "duration": 0.0011
+        },
+        {
+          "name": "test_validate_emissions_validated_status",
+          "outcome": "passed",
+          "duration": 0.0011
+        },
+        {
+          "name": "test_validate_emissions_negative_flagged",
+          "outcome": "passed",
+          "duration": 0.0009
+        },
+        {
+          "name": "test_detect_flaring_anomaly_when_exceeds_baseline",
+          "outcome": "passed",
+          "duration": 0.0011
+        },
+        {
+          "name": "test_detect_flaring_no_anomaly_within_baseline",
+          "outcome": "passed",
+          "duration": 0.0008
+        },
+        {
+          "name": "test_detect_flaring_regulatory_breach",
+          "outcome": "passed",
+          "duration": 0.0008
+        },
+        {
+          "name": "test_detect_methane_leak_above_threshold",
+          "outcome": "passed",
+          "duration": 0.001
+        },
+        {
+          "name": "test_detect_methane_leak_below_threshold",
+          "outcome": "passed",
+          "duration": 0.0008
+        },
+        {
+          "name": "test_detect_methane_severity_levels",
+          "outcome": "passed",
+          "duration": 0.0008
+        },
+        {
+          "name": "test_detect_inefficient_wells_above_threshold",
+          "outcome": "passed",
+          "duration": 0.0009
+        },
+        {
+          "name": "test_detect_inefficient_wells_within_threshold",
+          "outcome": "passed",
+          "duration": 0.0008
+        },
+        {
+          "name": "test_generate_hotspot_alert_structure",
+          "outcome": "passed",
+          "duration": 0.0019
+        },
+        {
+          "name": "test_full_carbon_compliance_cycle",
+          "outcome": "passed",
+          "duration": 0.007
+        },
+        {
+          "name": "test_agent_invoke_with_mocked_llm",
+          "outcome": "passed",
+          "duration": 3.6288
+        },
+        {
+          "name": "test_get_pra_field_data_all",
+          "outcome": "passed",
+          "duration": 0.0011
+        },
+        {
+          "name": "test_get_pra_field_data_specific_field",
+          "outcome": "passed",
+          "duration": 0.0008
+        },
+        {
+          "name": "test_get_pra_field_data_missing_field",
+          "outcome": "passed",
+          "duration": 0.0008
+        },
+        {
+          "name": "test_get_pra_plant_volumes_normalization",
+          "outcome": "passed",
+          "duration": 0.0009
+        },
+        {
+          "name": "test_get_pra_plant_volumes_field_filter",
+          "outcome": "passed",
+          "duration": 0.0009
+        },
+        {
+          "name": "test_get_pra_revenue_document_fields",
+          "outcome": "passed",
+          "duration": 0.001
+        },
+        {
+          "name": "test_get_pra_well_data_by_field",
+          "outcome": "passed",
+          "duration": 0.001
+        },
+        {
+          "name": "test_get_pra_well_completion_variable_data",
+          "outcome": "passed",
+          "duration": 0.001
+        },
+        {
+          "name": "test_get_pra_reservoir_data",
+          "outcome": "passed",
+          "duration": 0.001
+        },
+        {
+          "name": "test_recommendations_ranked_by_impact_per_capex",
+          "outcome": "passed",
+          "duration": 0.001
+        },
+        {
+          "name": "test_recommendations_top_n_limit",
+          "outcome": "passed",
+          "duration": 0.0009
+        },
+        {
+          "name": "test_recommendations_total_projected_reduction",
+          "outcome": "passed",
+          "duration": 0.0009
+        },
+        {
+          "name": "test_recommendations_no_flaring_alerts_lower_reduction",
+          "outcome": "passed",
+          "duration": 0.0015
+        }
+      ],
+      "coverage": 91.26
+    }
+  ]
+}

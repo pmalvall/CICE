@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1780450640843" clover="3.2.0">
+  <project timestamp="1780450640843" name="All files">
+    <metrics statements="48" coveredstatements="41" conditionals="40" coveredconditionals="21" methods="11" coveredmethods="10" elements="99" coveredelements="72" complexity="0" loc="48" ncloc="48" packages="1" files="1" classes="1"/>
+    <file name="carbon-compliance-service.js" path="/home/user/project/assets/carbon-compliance-cap/srv/carbon-compliance-service.js">
+      <metrics statements="48" coveredstatements="41" conditionals="40" coveredconditionals="21" methods="11" coveredmethods="10"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="22" count="10" type="cond" truecount="1" falsecount="1"/>
+      <line num="23" count="10" type="cond" truecount="1" falsecount="1"/>
+      <line num="24" count="10" type="cond" truecount="1" falsecount="1"/>
+      <line num="26" count="10" type="cond" truecount="1" falsecount="1"/>
+      <line num="29" count="2" type="stmt"/>
+      <line num="34" count="2" type="stmt"/>
+      <line num="35" count="4" type="stmt"/>
+      <line num="37" count="2" type="stmt"/>
+      <line num="42" count="2" type="stmt"/>
+      <line num="47" count="2" type="stmt"/>
+      <line num="63" count="2" type="stmt"/>
+      <line num="64" count="2" type="stmt"/>
+      <line num="65" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="74" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="75" count="1" type="stmt"/>
+      <line num="81" count="2" type="stmt"/>
+      <line num="82" count="4" type="stmt"/>
+      <line num="83" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="85" count="3" type="stmt"/>
+      <line num="86" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="87" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="88" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="90" count="2" type="stmt"/>
+      <line num="96" count="2" type="stmt"/>
+      <line num="102" count="2" type="stmt"/>
+      <line num="103" count="0" type="stmt"/>
+      <line num="104" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="106" count="0" type="stmt"/>
+      <line num="107" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="108" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="109" count="0" type="stmt"/>
+      <line num="113" count="0" type="stmt"/>
+      <line num="127" count="2" type="stmt"/>
+      <line num="128" count="2" type="stmt"/>
+      <line num="129" count="2" type="stmt"/>
+      <line num="130" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="131" count="1" type="stmt"/>
+      <line num="134" count="1" type="stmt"/>
+      <line num="138" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="139" count="1" type="stmt"/>
+      <line num="142" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>

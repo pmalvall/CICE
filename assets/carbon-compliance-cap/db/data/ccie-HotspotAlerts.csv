@@ -1,0 +1,4 @@
+ID;alert_type_code;asset_id;asset_type_code;severity_code;metric_name;current_value;threshold_value;excess_amount;recommended_action;estimated_annual_impact_tCO2e;status
+b1c2d3e4-0001-0001-0001-000000000001;FLARING;WELL-002;WELL;HIGH;flare_volume_mcf;320.00;150.00;170.00;Install gas capture/compression system. Investigate root cause. Report within 24h.;89.50;OPEN
+b1c2d3e4-0002-0002-0002-000000000002;METHANE_LEAK;WELL-002;WELL;MEDIUM;methane_rate_mcfd;85.00;50.00;35.00;Schedule LDAR inspection within 2 weeks. Check wellhead seals.;30.20;OPEN
+b1c2d3e4-0003-0003-0003-000000000003;INEFFICIENT_WELL;WELL-003;WELL;MEDIUM;carbon_intensity_tCO2e_per_BOE;0.062;0.042;0.020;Review artificial lift parameters. Investigate elevated water cut.;7.30;ACKNOWLEDGED
